@@ -1,0 +1,28 @@
+{
+  "name": "ax-buddy-plugin",
+  "version": "1.0.0",
+  "description": "비개발 직군을 위한 AX 버디 코치 플러그인. 업무 인터뷰를 통해 프로세스를 문서화하고 Confluence에 자동 게시합니다.",
+  "commands": [
+    {
+      "name": "ax-start",
+      "description": "업무 인터뷰를 시작합니다.",
+      "prompt_file": "commands/ax-start.md"
+    },
+    {
+      "name": "ax-publish",
+      "description": "인터뷰 결과를 산출물 3종으로 정리하고 Confluence에 게시합니다.",
+      "prompt_file": "commands/ax-publish.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "interview",
+      "file": "skills/interview.md"
+    },
+    {
+      "name": "wiki-publish",
+      "file": "skills/wiki-publish.md"
+    }
+  ],
+  "mcp_config": ".mcp.json"
+}
